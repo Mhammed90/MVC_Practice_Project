@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|c:\\users\\mohamed\\videos\\dotnet\\mvc\\mvc alhalay\\mvc_alhlaly\\gamezone\\gamezone\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|c:\\users\\mohamed\\videos\\dotnet\\mvc\\mvc alhalay\\mvc_alhlaly\\gamezone\\gamezone\\views\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|c:\\users\\mohamed\\videos\\dotnet\\mvc\\mvc alhalay\\mvc_alhlaly\\gamezone\\gamezone\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|c:\\users\\mohamed\\videos\\dotnet\\mvc\\mvc alhalay\\mvc_alhlaly\\gamezone\\gamezone\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|c:\\users\\mohamed\\videos\\dotnet\\mvc\\mvc alhalay\\mvc_alhlaly\\gamezone\\gamezone\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57F166A0-A830-4456-A708-F5AB1DF11A67}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "GameZone\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T04:56:58.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "GameZone\\Models\\Device.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Models\\Device.cs",
+              "RelativeToolTip": "GameZone\\Models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T04:04:04.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAACmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T04:01:24.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Views\\Games\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Games\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Views\\Games\\Index.cshtml*",
+              "RelativeToolTip": "GameZone\\Views\\Games\\Index.cshtml*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T02:39:30.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "GameZone\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Videos\\DotNet\\MVC\\MVC Alhalay\\MVC_ALHLALY\\GameZone\\GameZone\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "GameZone\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAwEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:54:43.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

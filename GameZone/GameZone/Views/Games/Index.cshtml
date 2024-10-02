@@ -1,0 +1,87 @@
+﻿@model List<Game>
+
+@{
+    ViewData["Title"] = "Games";
+}
+
+
+<a class="btn btn-secondary btn-lg" asp-action="Create">
+    <i class="bi bi-plus-circle"></i>
+    Add Game
+</a>
+
+
+
+@if (!Model.Any())
+{
+    <div class="alert alert-dismissible alert-warning mt-5">
+        <h4 class="alert-heading">No Games Exist!</h4>
+        <p class="mb-0">No Games Exist!</p>
+    </div>
+
+}
+else
+{
+    <div class="mt-5">
+
+        <table class="table table-border border-primary">
+            <tbody>
+                @foreach (var game in Model)
+                {
+                    <tr class="border-1 border-success">
+                        <td>
+                            <a asp-controller="Games" asp-action="Details" asp-route-id="@game!.Id" class="text-decoration-none text-reset">
+                                <div class="d-flex">
+                                    <div class="pe-5">
+                                        <img src="~/assets/images/@game.Cover" alt="@game.Name" style="max-width:90px;" />
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <h4 class="text-light">@game.Name</h4>
+                                        <h6>@game?.Category?.Name</h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="align-middle ">
+                            <div class="d-flex justify-content-end">
+                                <a asp-action="Edit" asp-route-id="@game.Id" class="btn btn-info rounded rounded-3 me-3">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@game.Id" class="btn btn-danger rounded rounded-3" onclick="confirmDelete(event, '@game.Id')">
+                                    <i class="bi bi-trash3-fill"></i>
+                                </a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+
+    </div>
+}
+@section Scripts {
+    <script>
+        function confirmDelete(event, gameId) {
+            event.preventDefault(); // Prevent the default action of the link
+            const result = confirm("Are you sure you want to delete this game?");
+            if (result) {
+                $.ajax({
+                    url: '/Games/Delete/' + gameId, // Update this URL according to your routing
+                    type: 'POST', // Use POST for deletion
+                    success: function () {
+                        // Remove the corresponding row from the table
+                        $('tr:has(a[href*="' + gameId + '"])').remove();
+                    },
+                    error: function () {
+                        alert("There was an error deleting the game.");
+                    }
+                });
+            }
+        }
+    </script>
+}
